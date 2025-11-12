@@ -1,0 +1,39 @@
+! Title: Actually Good Ads
+!!!!! Unblocking Acceptable Ads on sites that do one of the three:
+!!!!! 1. Complies with Do Not Track signals worldwide
+!!!!! 2. Complies with Global Privacy Control signals worldwide
+!!!!! 3. Does not employ any form of tracking
+!!! Board Game Quest complies with Global Privacy Control through its sole advertising partner, Raptive
+boardgamequest.com#@#.adsanity-group
+boardgamequest.com#@#.ad-300x250
+boardgamequest.com#@#.td-adspot-title
+boardgamequest.com#@#.td-header-ad-wrap
+!!! Der Neue Wiesentbote seemingly does no tracking whatsoever: "Wir setzen weder Cookies von Dritt-Unternehmen ein noch verwenden wir Cookies zur Nutzerverfolgung („Tracking“)."
+@@||wiesentbote.de/k/www/delivery/asyncspc.php?zones=$xmlhttprequest,domain=wiesentbote.de
+@@||wiesentbote.de/wb/wp-content/themes/hueman-child/kunden/$image,domain=wiesentbote.de
+@@||wiesentbote.de/k/www/delivery/lg.php?bannerid=$image,domain=wiesentbote.de
+!!! Ethical Ads has .well-known/dnt-policy.txt, but only on server.ethicalads.io
+@@||readthedocs.org/api/*/sustainability/$script
+@@||readthedocs.org/sustainability/
+@@||ethicalads.io/images^$domain=ethicalads.io
+@@||media.ethicalads.io/media/*/ethicalads.min.js$script
+@@||server.ethicalads.io/api/v1/decision^
+@@||server.ethicalads.io/proxy/click^
+@@||server.ethicalads.io/proxy/view^
+@@||media.ethicalads.io/media/images/$image
+@@||media.ethicalads.io/abp/px.gif?ch=1&rn=*$image
+||media.ethicalads.io/abp/px.gif?ch=2&rn=*$image
+!!! Yelp complies with Global Privacy Control, but only in states where it is required to do so by law
+!@@/px.gif?ch=1&rn=$domain=yelp.com|yelp.com.ar|yelp.at|yelp.com.au|yelp.be|yelp.com.br|yelp.ca|yelp.ch|yelp.cl|yelp.cz|yelp.de|yelp.dk|yelp.es|yelp.fi|yelp.fr|yelp.co.uk|yelp.com.hk|yelp.ie|yelp.it|yelp.co.jp|yelp.com.mx|yelp.my|yelp.nl|yelp.no|yelp.co.nz|yelp.com.ph|yelp.pl|yelp.pt|yelp.se|yelp.com.sg|yelp.com.tr|yelp.com.tw
+!/px.gif?ch=2&rn=$domain=yelp.com|yelp.com.ar|yelp.at|yelp.com.au|yelp.be|yelp.com.br|yelp.ca|yelp.ch|yelp.cl|yelp.cz|yelp.de|yelp.dk|yelp.es|yelp.fi|yelp.fr|yelp.co.uk|yelp.com.hk|yelp.ie|yelp.it|yelp.co.jp|yelp.com.mx|yelp.my|yelp.nl|yelp.no|yelp.co.nz|yelp.com.ph|yelp.pl|yelp.pt|yelp.se|yelp.com.sg|yelp.com.tr|yelp.com.tw
+!yelp.com,yelp.com.ar,yelp.at,yelp.com.au,yelp.be,yelp.com.br,yelp.ca,yelp.ch,yelp.cl,yelp.cz,yelp.de,yelp.dk,yelp.es,yelp.fi,yelp.fr,yelp.co.uk,yelp.com.hk,yelp.ie,yelp.it,yelp.co.jp,yelp.com.mx,yelp.my,yelp.nl,yelp.no,yelp.co.nz,yelp.com.ph,yelp.pl,yelp.pt,yelp.se,yelp.com.sg,yelp.com.tr,yelp.com.tw#@#.ad-block
+!yelp.com,yelp.com.ar,yelp.at,yelp.com.au,yelp.be,yelp.com.br,yelp.ca,yelp.ch,yelp.cl,yelp.cz,yelp.de,yelp.dk,yelp.es,yelp.fi,yelp.fr,yelp.co.uk,yelp.com.hk,yelp.ie,yelp.it,yelp.co.jp,yelp.com.mx,yelp.my,yelp.nl,yelp.no,yelp.co.nz,yelp.com.ph,yelp.pl,yelp.pt,yelp.se,yelp.com.sg,yelp.com.tr,yelp.com.tw#@#.ABP
+!!! DuckDuckGo has .well-known/dnt-policy.txt
+@@||duckduckgo.com/?q=$elemhide
+@@||duckduckgo.com^*^q=$elemhide
+@@||duckduckgo.com/lite$elemhide
+@@||duckduckgo.com/html$elemhide
+@@||duckduckgo.com/share/spice/amazon/$domain=duckduckgo.com
+@@||duckduckgo.com/m.js?$domain=duckduckgo.com
+@@||duckduckgo.com/t/$~third-party
+@@||duckduckgo.com/y.js?ad_domain$popup,domain=duckduckgo.com
